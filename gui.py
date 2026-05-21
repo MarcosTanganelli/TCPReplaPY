@@ -127,7 +127,7 @@ class gui:
 					display = name or network_name or iface
 					for ip in item.get("ips", []):
 						self._add_valid_ipv4(ipv4s, ip)
-					break
+					break 
 
 			try:
 				iface_obj = conf.ifaces[iface]

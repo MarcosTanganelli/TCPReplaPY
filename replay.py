@@ -1,6 +1,6 @@
 from pathlib import Path
 from threading import Event, Thread
-from typing import Callable
+from typing import Callable 
 
 from scapy.all import rdpcap, sendp
 
